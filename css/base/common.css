@@ -1,0 +1,28 @@
+@import url(./button.css);
+
+@import url(./input.css);
+
+@font-face {
+    font-family: Roboto;
+    src: url(/lib/font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoBlackItalic;
+    src: url(/lib/font/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(/lib/font/Roboto-Bold.ttf);
+}
+
+body{
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+button{
+    font-family: Roboto;
+    cursor: pointer;
+}
