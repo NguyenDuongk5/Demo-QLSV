@@ -9,7 +9,7 @@
     background-color: unset;
     outline: unset;
     box-sizing: border-box;
-
+    width: 200px;
 
 }
 .input:focus{
@@ -21,6 +21,7 @@
 }
 .input-error{
     border-color: #FF4747;
+
 }
 .error{
     position: relative;
@@ -32,7 +33,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-
 }
 .error .error-text{
     position: relative;
@@ -41,17 +41,21 @@
     color: #fff;
     box-sizing: border-box;
     border-radius: 4px;
+    margin-top: 10px;
+    width: 150px;
+
 
 }
 .error .error-arrow {
     position:absolute;
     width: 12px;
     height: 12px;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #FF4747;
     transform: rotate(45deg);
+
 
 }
 .input-icon{
@@ -65,7 +69,7 @@
     background-color: unset;
     outline: unset;
     box-sizing: border-box;
-
+    margin-top: 10px;
 }
 .input-icon:focus{
     border-color: #019160;
@@ -76,4 +80,10 @@
     position: relative;
     margin: 0 auto;
 }
+.input-icon-search{
+    background-image: url(../../lib/image/icon-Search.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 16px center;
 
+}

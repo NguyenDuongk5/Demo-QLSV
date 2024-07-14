@@ -2,6 +2,10 @@
 
 @import url(./input.css);
 
+@import url(./toastMessenger.css);
+
+@import url(./table.css);
+
 @font-face {
     font-family: Roboto;
     src: url(/lib/font/Roboto-Medium.ttf);
